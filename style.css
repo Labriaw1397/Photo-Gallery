@@ -1,0 +1,64 @@
+h1 {
+  color: #3d1146;
+}
+
+body {
+  background: #64e9d7;
+}
+
+h1 {
+  color: #3d1146;
+  font-size: 45px;
+  text-align: center;
+}
+
+img {
+  border: 2px solid black;
+  width: 400px;
+  height: 300px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+  section{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #f224e4;
+  }
+
+  section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+img {
+  border-radius: 50%;
+}
+
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  h1 {
+    text-decoration: overline;
+    h1 {
+      font-size: 40px;;l
+    }
+
+  </div>
+
